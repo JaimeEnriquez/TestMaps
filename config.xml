@@ -9,8 +9,8 @@
     </author>
     <content src="index.html" />
     <access origin="*" />
-	<access origin="http://97.74.238.180/AppPrueba/" />
-	<allow-navigation href="http://97.74.238.180/AppPrueba/*" />
+	<access origin="http://50.21.186.193:8086/" />
+	<allow-navigation href="http://50.21.186.193:8086/*" />
 	
 	<plugin name="cordova-plugin-whitelist" version="1"/>
 <allow-intent href="http://*/*"/>
