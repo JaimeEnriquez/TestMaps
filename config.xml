@@ -7,7 +7,7 @@
     <author email="a@a.com" href="">
         KSD
     </author>
-    <content src="AppPrueba.aspx" />
+    <content src="Index.html" />
     <access origin="*" />
 	<access origin="http://97.74.238.180/AppPrueba/" />
 	<allow-navigation href="http://97.74.238.180/AppPrueba/*" />
