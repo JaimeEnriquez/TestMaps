@@ -7,10 +7,10 @@
     <author email="a@a.com" href="">
         KSD
     </author>
-    <content src="index.html" />
+    <content src="Registro.html" />
     <access origin="*" />
-	<access origin="http://97.74.238.180/AppPrueba/" />
-	<allow-navigation href="http://97.74.238.180/AppPrueba/*" />
+	<access origin="https://armstrongweb.com.mx/TEST/" />
+	<allow-navigation href="https://armstrongweb.com.mx/TEST/*" />
 	
 	<plugin name="cordova-plugin-whitelist" version="1"/>
 <allow-intent href="http://*/*"/>
