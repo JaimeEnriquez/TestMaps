@@ -19,6 +19,7 @@
 <allow-intent href="sms:*"/>
 <allow-intent href="mailto:*"/>
 <allow-intent href="geo:*"/>
+	<plugin name="Geolocation" value="org.apache.cordova.GeoBroker" />
 <platform name="android">
     <allow-intent href="market:*"/>
 	
