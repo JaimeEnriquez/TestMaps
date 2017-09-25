@@ -1,44 +1,85 @@
-<?xml version='1.0' encoding='utf-8'?>
-<widget id="com.phonegap.helloworld" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>TestMaps</name>
-    <description>
-        TestMaps
-    </description>
-    <author email="a@a.com" href="">
-        KSD_Geolicalizacion
-    </author>
-    <content src="Registro.html" />
-    <access origin="*" />
-	<access origin="https://armstrongweb.com.mx/TEST/" />
-	<allow-navigation href="https://armstrongweb.com.mx/TEST/*" />
-	
-	<plugin name="cordova-plugin-whitelist" version="1"/>
-<allow-intent href="http://*/*"/>
-<allow-intent href="https://*/*"/>
-<allow-intent href="tel:*"/>
-<allow-intent href="sms:*"/>
-<allow-intent href="mailto:*"/>
-<allow-intent href="geo:*"/>
-<platform name="android">
-    <allow-intent href="market:*"/>
-	
-	        
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+        <title>Kindebook</title>
+    </head>
+    <body>
 	
 	
-</platform>
+	<link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+	
+	
+	
+<style type="text/css">
+body,html{
+height:100%;  
+}
+ #inferior{
+    color: #FFF;
+    background: #ed5565;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    height: 50px;
+    z-index: 0;
+ }
+ 
+  #superior{
+    color: #FFF;
+    background: #1ab394;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    height: 50px;
+    z-index: 0;
+    top: -1px;
+ }
+ 
+ .contenedorprincipal{
+ position:fixed; top:0px; left:0px; bottom:0px; right:0px; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;
+ }
+ 
+</style>
+ 
 
-<icon src="KB.png" platform="android" qualifier="ldpi" />
-<icon src="KB.png" platform="android" qualifier="mdpi" />
-<icon src="KB.png" platform="android" qualifier="hdpi" />
-<icon src="KB.png" platform="android" qualifier="xhdpi" />
-<icon src="KB.png" platform="android" qualifier="xxhdpi" />
-<icon src="KB.png" platform="android" qualifier="fr-xxhdpi" />
+ <div id="cartago" style="background-image:url(back.png); background-repeat:round">
+	<table style=" background-image:url(back.png); background-repeat:round;position:fixed; top:0px; left:0px; bottom:0px; right:0px; width:100%; height:100%; border:none; margin:0; padding:0;">
+		<tr>
+			<td style="text-align:center">
+				<img src="logo.gif" />
+			</td>
+		</tr>
+	</table>
+ </div>
+ 
+	  
+</div>
+	  
+	  
+	  
+		<script>
+		
+		setTimeout(function() {
+			$('#cartago').fadeOut(2500);
+		}, 4000);
+		
+				 setTimeout(function() {
+						
+						$('#corpse').fadeIn(2500);
+ 
+					}, 5000);
+		</script>
+	  
 
-
-<platform name="ios">
-    <allow-intent href="itms:*"/>
-    <allow-intent href="itms-apps:*"/>
-</platform>
-
-
-</widget>
+	  <iframe id="corpse" class="contenedorprincipal" style="display:none" src="http://kinderbook.school/Login?VSS=a662ef3c35e9451f2dba001251979bfe4bf3b231&pacific-semprom-ss-1b55d962&077cdb6c6d0faf32dae06b2ce04da9751b55d962"></iframe> 
+     
+		
+		
+		<script type="text/javascript" src="cordova.js"></script>
+    </body>
+</html>
