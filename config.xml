@@ -7,7 +7,7 @@
     <author email="a@a.com" href="">
         KSD
     </author>
-    <content src="Registro.html" />
+    <content src="index.html" />
     <access origin="*" />
 	<access origin="https://armstrongweb.com.mx/TEST/" />
 	<allow-navigation href="https://armstrongweb.com.mx/TEST/*" />
