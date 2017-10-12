@@ -9,8 +9,8 @@
     </author>
     <content src="index.html" />
     <access origin="*" />
-	<access origin="https://armstrongweb.com.mx/TEST/" />
-	<allow-navigation href="https://armstrongweb.com.mx/TEST/*" />
+	<access origin="http://97.74.238.180:8072/" />
+	<allow-navigation http://97.74.238.180:8072/*" />
 	
 	<plugin name="cordova-plugin-whitelist" version="1"/>
 <allow-intent href="http://*/*"/>
@@ -19,7 +19,7 @@
 <allow-intent href="sms:*"/>
 <allow-intent href="mailto:*"/>
 <allow-intent href="geo:*"/>
-	<plugin name="Geolocation" value="org.apache.cordova.GeoBroker" />
+
 <platform name="android">
     <allow-intent href="market:*"/>
 	
